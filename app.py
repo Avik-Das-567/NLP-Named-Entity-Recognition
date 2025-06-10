@@ -5,7 +5,7 @@ import spacy
 nlp = spacy.load("en_core_web_sm")
 
 # Input text
-text = "Apple Inc. launched the iPhone 12 on October 23, 2020."
+text = "Apple Inc. unveiled the iPhone 12 at an event in Cupertino on October 13, 2020."
 
 # Process the text
 doc = nlp(text)
